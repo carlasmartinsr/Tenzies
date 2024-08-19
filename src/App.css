@@ -32,7 +32,7 @@ main {
 .dice-container {
   display: grid;
   grid-template-rows: 6em 6em;
-  grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(5em, 1fr));
   column-gap: 0.8em;
   margin: 0.8em 0 0.6em 0;
   max-width: 31.25em;
