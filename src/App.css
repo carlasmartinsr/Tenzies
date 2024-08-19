@@ -12,6 +12,7 @@
 main {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -31,11 +32,18 @@ main {
 
 .dice-container {
   display: grid;
-  grid-template-rows: 6em 6em;
-  grid-template-columns: repeat(auto-fill, minmax(5em, 1fr));
-  column-gap: 0.8em;
-  margin: 0.8em 0 0.6em 0;
+  grid-template-rows: auto auto;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0.5em 0 0.3em 0;
   max-width: 31.25em;
+}
+
+@media (min-width: 375px) {
+  .dice-container {
+    column-gap: 0.8em;
+    margin: 0.8em 0 0.6em 0;
+    max-width: 31.25em;
+  }
 }
 
 .dice-face {
