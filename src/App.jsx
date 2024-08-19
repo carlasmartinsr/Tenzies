@@ -4,7 +4,7 @@ import Die from "./Die";
 import Games from "./Games";
 import Scoreboard from "./Scoreboard";
 import { nanoid } from "nanoid";
-import Confetti from "react-confetti";
+// import Confetti from "react-confetti";
 import { onSnapshot, addDoc } from "firebase/firestore";
 import { gamesCollection } from "./firebase.js";
 
