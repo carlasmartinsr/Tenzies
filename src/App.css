@@ -171,19 +171,18 @@ header {
 .scoreboard-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 0.6em;
   font-weight: bold;
   width: 12em;
   padding: 0.031em 0.12em;
   line-height: 0;
   font-style: italic;
-  align-self: flex-end;
 }
 
 @media (min-width: 430px) {
   .scoreboard-container {
-    align-self: unset;
+    justify-content: center;
   }
 }
 
