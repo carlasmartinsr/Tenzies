@@ -9,6 +9,12 @@
   height: 31em;
 }
 
+@media (min-width: 430px) {
+  .content-box {
+    height: 33em;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;
