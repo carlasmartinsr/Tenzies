@@ -178,6 +178,13 @@ header {
   padding: 0.031em 0.12em;
   line-height: 0;
   font-style: italic;
+  align-self: flex-end;
+}
+
+@media (min-width: 430px) {
+  .scoreboard-container {
+    align-self: unset;
+  }
 }
 
 .scoreboard-container div {
