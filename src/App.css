@@ -42,14 +42,13 @@ main {
   grid-template-columns: repeat(5, 1fr);
   max-width: 31.25em;
   column-gap: 0.5em;
-  margin: 0.7em 0 1.6em 0;
+  margin: 1em 0 1.9em 0;
   row-gap: 1.2em;
 }
 
 @media (min-width: 430px) {
   .dice-container {
     row-gap: 1.7em;
-    margin: 1em 0 1.9em 0;
     column-gap: 2.2em;
   }
 }
