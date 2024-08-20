@@ -1,8 +1,4 @@
 .content-box {
-  background-color: #1b5299;
-  background-color: #a2c4fa;
-  background-color: #a089c6;
-  background-color: #bdacd7;
   background-color: #bdacd7;
   border-radius: 0.6em;
   padding: 1.65em;
@@ -129,9 +125,7 @@ main {
   padding: 0.4em 2.3em;
   border: none;
   border-radius: 6px;
-  background-color: #deb841;
   background-color: #f9e784;
-  color: #1b5299;
   color: #2a0c4e;
   font-size: 1.3rem;
   font-family: "Edu AU VIC WA NT Hand", cursive;
@@ -187,8 +181,6 @@ header {
 }
 
 .scoreboard-container div {
-  background-color: #7cacf8;
-  background-color: #bdacd7;
   background-color: #aa95cc;
   padding: 0.3em 0.5em;
   border-radius: 7%;
