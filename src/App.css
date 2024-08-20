@@ -6,12 +6,12 @@
   background-color: #bdacd7;
   border-radius: 0.6em;
   padding: 1.65em;
-  height: 31em;
+  height: 33em;
 }
 
 @media (min-width: 430px) {
   .content-box {
-    height: 33em;
+    height: 31em;
   }
 }
 
