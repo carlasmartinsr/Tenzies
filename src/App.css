@@ -36,6 +36,7 @@ main {
   grid-template-columns: repeat(5, 1fr);
   max-width: 31.25em;
   column-gap: 0.5em;
+  margin: 1em 0 1.9em 0;
   row-gap: 1.2em;
 }
 
@@ -43,8 +44,6 @@ main {
   .dice-container {
     row-gap: 1.7em;
     column-gap: 2.2em;
-    margin: 1em 0 1.9em 0;
-    max-width: 31.25em;
   }
 }
 
